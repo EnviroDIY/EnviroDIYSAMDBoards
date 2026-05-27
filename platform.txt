@@ -20,7 +20,7 @@
 # https://arduino.github.io/arduino-cli/0.33/platform-specification/
 
 name=EnviroDIY SAMD Boards
-version=0.3.7
+version=0.4.0
 
 # SAMD compile variables
 # -----------------
@@ -234,7 +234,7 @@ debug.server.openocd.script={runtime.platform.path}/{build.openocdscript}
 #debug.server=jlink
 #debug.server.jlink.path=JLinkGDBServer
 #debug.server.jlink.device={build.variant}
-#debug.server.jlink.script={runtime.platform.path}/{build.openocdscript}
+#debug.server.jlink.script={runtime.platform.path}/{build.jlinkscript}
 
 # USB Flags
 # ------------------------------

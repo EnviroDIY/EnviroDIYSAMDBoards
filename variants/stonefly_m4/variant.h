@@ -17,8 +17,8 @@
 */
 
 // clang-format off
-#ifndef _VARIANT_STONEFLY_
-#define _VARIANT_STONEFLY_
+#ifndef _VARIANT_STONEFLY_M4_
+#define _VARIANT_STONEFLY_M4_
 // clang-format on
 
 // The definitions here needs a SAMD core >=1.6.10
@@ -54,36 +54,6 @@
 extern "C"
 {
 #endif // __cplusplus
-
-    /*----------------------------------------------------------------------------
-     *        Version Information
-     *
-     * Don't change this; it is used as a template!
-     *----------------------------------------------------------------------------*/
-    // clang-format off
-/** Major version number (X.x.x) */
-#define STONEFLY_VERSION_MAJOR 0
-/** Minor version number (x.X.x) */
-#define STONEFLY_VERSION_MINOR 3
-/** Patch version number (x.x.X) */
-#define STONEFLY_VERSION_PATCH 7
-
-/**
- * Macro to convert version number into an integer
- *
- * To be used in comparisons, such as STONEFLY_VERSION >= STONEFLY_VERSION_VAL(4, 0, 0)
- */
-#define STONEFLY_VERSION_VAL(major, minor, patch) ((major << 16) | (minor << 8) | (patch))
-
-/**
- * Current Board version, as an integer
- *
- * To be used in comparisons, such as STONEFLY_VERSION >= STONEFLY_VERSION_VAL(4, 0, 0)
- */
-#define STONEFLY_VERSION STONEFLY_VERSION_VAL(STONEFLY_VERSION_MAJOR, \
-                                              STONEFLY_VERSION_MINOR, \
-                                              STONEFLY_VERSION_PATCH)
-// clang-format on
 
 /*----------------------------------------------------------------------------
  *        Pins
@@ -556,6 +526,6 @@ static const uint8_t BATVOLTPIN = 75; // A9
 #define BATVOLT_R1 47                 // in fact 4.7M
 #define BATVOLT_R2 100                // in fact 10M
 
-#endif /* _VARIANT_STONEFLY_ */
+#endif /* _VARIANT_STONEFLY_M4_ */
 
 // cSpell:words RXPO DIPO DOPO MSSEN SYNCBUSY PERIPH XCLK LINUXBRIDGE
