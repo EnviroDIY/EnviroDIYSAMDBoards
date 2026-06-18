@@ -26,7 +26,7 @@
 /** Package minor version number (x.X.x) */
 #define ENVIRODIY_SAMD_BOARDS_VERSION_MINOR 4
 /** Patch version number (x.x.X) */
-#define ENVIRODIY_SAMD_BOARDS_VERSION_PATCH 1
+#define ENVIRODIY_SAMD_BOARDS_VERSION_PATCH 2
 
 /** Board major version number (X.x.x) */
 #define STONEFLY_M4_VERSION_MAJOR 0

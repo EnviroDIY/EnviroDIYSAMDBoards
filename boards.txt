@@ -36,6 +36,8 @@ stonefly_m4.pid.0=0x2402
 
 # Upload
 stonefly_m4.upload.tool=bossac18
+stonefly_m4.upload.tool.default=bossac18
+stonefly_m4.upload.tool.serial=bossac18
 stonefly_m4.upload.protocol=sam-ba
 stonefly_m4.upload.maximum_size=507904
 stonefly_m4.upload.offset=0x4000
