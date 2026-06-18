@@ -29,27 +29,27 @@
 #define ENVIRODIY_SAMD_BOARDS_VERSION_PATCH 2
 
 /** Board major version number (X.x.x) */
-#define STONEFLY_M4_VERSION_MAJOR 0
+#define STONEFLY_M4_03B_VERSION_MAJOR 0
 /** Board minor version number (x.X.x) */
-#define STONEFLY_M4_VERSION_MINOR 3
+#define STONEFLY_M4_03B_VERSION_MINOR 3
 /** Board patch version number (x.x.X) */
-#define STONEFLY_M4_VERSION_PATCH 7
+#define STONEFLY_M4_03B_VERSION_PATCH 7
 
 /**
  * Macro to convert version number into an integer
  *
- * To be used in comparisons, such as STONEFLY_M4_VERSION >= STONEFLY_M4_VERSION_VAL(4, 0, 0)
+ * To be used in comparisons, such as STONEFLY_M4_03B_VERSION >= STONEFLY_M4_03B_VERSION_VAL(4, 0, 0)
  */
 #define ENVIRODIY_SAMD_BOARDS_VERSION_VAL(major, minor, patch)((major << 16) | (minor << 8) | (patch))
-#define STONEFLY_M4_VERSION_VAL(major, minor, patch)((major << 16) | (minor << 8) | (patch))
+#define STONEFLY_M4_03B_VERSION_VAL(major, minor, patch)((major << 16) | (minor << 8) | (patch))
 
 /**
  * Current Board version, as an integer
  *
- * To be used in comparisons, such as STONEFLY_M4_VERSION >= STONEFLY_M4_VERSION_VAL(4, 0, 0)
+ * To be used in comparisons, such as STONEFLY_M4_03B_VERSION >= STONEFLY_M4_03B_VERSION_VAL(4, 0, 0)
  */
 #define ENVIRODIY_SAMD_BOARDS_VERSION ENVIRODIY_SAMD_BOARDS_VERSION_VAL(ENVIRODIY_SAMD_BOARDS_VERSION_MAJOR, ENVIRODIY_SAMD_BOARDS_VERSION_MINOR, ENVIRODIY_SAMD_BOARDS_VERSION_PATCH)
-#define STONEFLY_M4_VERSION STONEFLY_M4_VERSION_VAL(STONEFLY_M4_VERSION_MAJOR, STONEFLY_M4_VERSION_MINOR, STONEFLY_M4_VERSION_PATCH)
+#define STONEFLY_M4_03B_VERSION STONEFLY_M4_03B_VERSION_VAL(STONEFLY_M4_03B_VERSION_MAJOR, STONEFLY_M4_03B_VERSION_MINOR, STONEFLY_M4_03B_VERSION_PATCH)
 // clang-format on
 
 

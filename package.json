@@ -1,7 +1,7 @@
 {
   "name": "framework-arduino-samd-envirodiy",
   "description": "EnviroDIY SAMD Boards",
-  "version": "0.4.2",
+  "version": "0.4.2DEV",
   "url": "https://www.envirodiy.org/",
   "author": {
     "name": "Stroud Water Research Center - EnviroDIY",

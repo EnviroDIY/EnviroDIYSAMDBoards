@@ -1,5 +1,5 @@
 {
-  "name": "EnviroDIY Stonefly",
+  "name": "EnviroDIY Stonefly v0.3.7 beta",
   "url": "https://www.envirodiy.org/",
   "vendor": "EnviroDIY",
   "platforms": ["atmelsam"],
@@ -8,13 +8,13 @@
     "arduino": { "ldscript": "flash_with_bootloader.ld" },
     "core": "adafruit",
     "cpu": "cortex-m4",
-    "extra_flags": ["-D__SAMD51N19A__", "-D__SAMD51__", "-D__FPU_PRESENT", "-DARM_MATH_CM4", "-DENVIRODIY_STONEFLY", "-DSD_CHIP_SELECT_MODE=1", "-DENVIRODIY_STONEFLY_M4", "-DENABLE_CACHE"],
+    "extra_flags": ["-D__SAMD51N19A__", "-D__SAMD51__", "-D__FPU_PRESENT", "-DARM_MATH_CM4", "-DENVIRODIY_STONEFLY", "-DSD_CHIP_SELECT_MODE=1", "-DENVIRODIY_STONEFLY_M4_03B", "-DENABLE_CACHE"],
     "f_cpu": "120000000L",
     "hwids": [["0x03EB", "0x2402"]],
     "mcu": "samd51n19a",
     "system": "samd",
-    "usb_product": "EnviroDIY Stonefly",
-    "variant": "stonefly_m4",
+    "usb_product": "EnviroDIY Stonefly v0.3.7 beta",
+    "variant": "stonefly_m4_03b",
     "variant_pkg": "envirodiy"
   },
   "upload": {
