@@ -1,7 +1,7 @@
 # Arduino board support package
 
 This package contains Arduino board support files for SAM/SAMD boards developed by EnviroDIY (https://www.envirodiy.org/).
-This package is version 0.4.2DEV, built on 2026-06-18.
+This package is version 0.4.2-DEV, built on 2026-06-18.
 
 It relies on Adafruit's SAMD board support package; thus, users need to have that package installed.
 Please see installation instructions here: https://learn.adafruit.com/add-boards-arduino-v164/setup
