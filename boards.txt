@@ -53,7 +53,7 @@ stonefly_m4_03b.build.usb_product="EnviroDIY Stonefly v0.3.7 beta"
 stonefly_m4_03b.build.usb_manufacturer="EnviroDIY"
 stonefly_m4_03b.build.board=STONEFLY
 stonefly_m4_03b.build.core=adafruit:arduino
-stonefly_m4_03b.build.extra_flags=-D__SAMD51N19A__ -D__SAMD51__ -D__FPU_PRESENT -DARM_MATH_CM4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENVIRODIY_STONEFLY -DSD_CHIP_SELECT_MODE=1 -DENVIRODIY_STONEFLY_M4_03B {build.usb_flags}
+stonefly_m4_03b.build.extra_flags=-D__SAMD51N19A__ -D__SAMD51__ -D__FPU_PRESENT -DARM_MATH_CM4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DENVIRODIY_STONEFLY -DENVIRODIY_STONEFLY_M4 -DSD_CHIP_SELECT_MODE=1 -DENVIRODIY_STONEFLY_M4_03B {build.usb_flags}
 stonefly_m4_03b.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 stonefly_m4_03b.build.openocdscript=scripts/openocd/daplink_samdx1_stonefly_m4_03b.cfg
 #stonefly_m4_03b.build.jlinkscript=scripts/jlink/debug_custom_stonefly_m4_03b.cfg
