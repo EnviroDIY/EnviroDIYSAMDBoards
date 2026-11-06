@@ -16,24 +16,24 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-// 
+//
 /*----------------------------------------------------------------------------
  *        Version Information
  *----------------------------------------------------------------------------*/
 // clang-format off
 /** Package major version number (X.x.x) */
-#define ENVIRODIY_SAMD_BOARDS_VERSION_MAJOR 0
+#define ENVIRODIY_SAMD_BOARDS_VERSION_MAJOR 1
 /** Package minor version number (x.X.x) */
-#define ENVIRODIY_SAMD_BOARDS_VERSION_MINOR 4
+#define ENVIRODIY_SAMD_BOARDS_VERSION_MINOR 0
 /** Patch version number (x.x.X) */
-#define ENVIRODIY_SAMD_BOARDS_VERSION_PATCH 2
+#define ENVIRODIY_SAMD_BOARDS_VERSION_PATCH 0
 
 /** Board major version number (X.x.x) */
-#define STONEFLY_M4_VERSION_MAJOR 0
+#define STONEFLY_M4_VERSION_MAJOR 1
 /** Board minor version number (x.X.x) */
-#define STONEFLY_M4_VERSION_MINOR 3
+#define STONEFLY_M4_VERSION_MINOR 0
 /** Board patch version number (x.x.X) */
-#define STONEFLY_M4_VERSION_PATCH 7
+#define STONEFLY_M4_VERSION_PATCH 0
 
 /**
  * Macro to convert version number into an integer
